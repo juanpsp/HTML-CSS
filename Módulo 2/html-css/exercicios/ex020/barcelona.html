@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-size: medium;
+            font-weight: bold;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            background-image:linear-gradient(to right, #172751 13%,#c21533 );
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: rgb(55, 55, 255);;
+        }
+
+        div{
+            
+            background-color:rgb(55, 55, 255);
+            border: 2px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+
+        }
+        div:hover {
+            color:  red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>FC BARCELONA</h1>
+    <p>Estátiscas e história do Fc Barcelona nos campeonatos nacionais e internacionais </p>
+    <div>
+        CHAMPIONS LEAGUE
+        <p>Fc Barcelona tem 5 Champions Legues, tendo sua primeira conquistada no ano de 1992, contra o Sampdoria</p>
+    </div>
+</body>
+</html>

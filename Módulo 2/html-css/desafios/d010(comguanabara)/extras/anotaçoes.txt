@@ -1,0 +1,81 @@
+/*@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Exo;
+    margin: 0px;
+    background-image: linear-gradient(to bottom,rgba(63, 63, 252, 0.773), rgba(63, 63, 252, 0.559));
+}
+
+header{
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(to top,rgb(63, 63, 252), #172751);
+}
+
+h1{
+    font-size: 38px;
+    color: white;
+}
+
+header > p{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+}
+
+header > nav{
+    text-align: left;
+    font-size: 15px;
+
+}
+nav > a{
+    margin-right: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main{
+    margin:20px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    color: #c21533;
+    font-size: 27px;
+    background-image: linear-gradient(to right,#c215326e, #c2153250, #c2153224, #c2153209);
+}
+
+h3{
+    color: #c21533;
+    font-size: 27px;
+    background-image: linear-gradient(to right,#c215326e, #c2153250, #c2153224, #c2153209);
+}
+
+ .saber > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+aside{
+    background-color: #2f4f9f;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 15px 20px;
+}
+footer > p{
+    text-align: center;
+    background-color: #172751;
+    color: white;
+}
+
+footer > p > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+*/

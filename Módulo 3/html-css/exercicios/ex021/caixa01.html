@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            /*display: inline;*/
+            background-color: cadetblue;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px; ;
+            border-style: solid;
+            border-color: aqua;
+
+            /*exemplo de shorthand
+            
+            border: 10px solid aqua;
+            */
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            /*exemplo de shorthand
+            
+            padding: 10px 10px 10px 10px "ou colocar 10px uma vez só que já vai contar pra todos os lados, caso sejam iguais"
+        
+            OBS: NA ORDEM TOP RIGHT BOTTOM LEFT 
+            */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            /*exemplo de shorthand
+            
+            margin: 10px;
+
+            para centralizar basta colocar 
+            margin: auto;
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aquamarine;
+        }
+
+        a{
+            border-width: 3px;
+            border-style: solid;
+            border-color: turquoise;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
